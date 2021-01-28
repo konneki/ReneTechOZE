@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;@700&family=Roboto&display=swap');
 
 :root {
     /* colors */
@@ -12,16 +12,21 @@
 }
 
 body {
-  background-color: var(--main-color)
+  background-color: var(--main-color);
 }
 h1, h2, h3, h4 {
-  font-family: var(--heading)
+  font-family: var(--heading);
+  font-weight: 700;
 }
 
 p, a{
   font-family: var(--text);
   text-decoration: none;
+  color: inherit;
+  font-weight: 300;
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }

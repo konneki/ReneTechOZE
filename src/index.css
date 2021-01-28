@@ -10,3 +10,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+#root {
+width: 100vw;
+}

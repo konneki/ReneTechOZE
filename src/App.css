@@ -1,3 +1,41 @@
 @import "_variables.css";
-
-
+.App {
+}
+.navbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1600px;
+  margin: 40px auto 0 auto;
+}
+.logo {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  padding: 9px;
+  border-radius: 50%;
+  margin: 0 50px 0 0;
+}
+.logo_path {
+  fill: var(--main-color);
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+.navbar-list {
+  display: flex;
+  font-size: 2rem;
+}
+.navbar-item {
+  margin: 0 60px 0 0;
+}
+.button-hollow a {
+  border: 2px solid;
+  padding: 1.8rem 5.1rem;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
