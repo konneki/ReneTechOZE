@@ -1,0 +1,72 @@
+@import '../_variables.css';
+
+.hero-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.hero {
+  width: 90vw;
+}
+.heading-container {
+  max-width: 780px;
+}
+.heading {
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.heading-special {
+  font-size: 8rem;
+}
+.subheading {
+  max-width: 520px;
+  font-size: 2rem;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.button-fill {
+  display: inline-flex;
+}
+.button-fill a {
+  background-color: #fff;
+  color: var(--main-color);
+  padding: 1.8rem 5.1rem;
+  border-radius: 3rem;
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+.circle1 {
+  position: absolute;
+  right: -330px;
+  top: -600px;
+  width: 1540px;
+  height: 1540px;
+  border-radius: 50%;
+  background-color: var(--highlight-color);
+  background: linear-gradient(
+    350deg,
+    var(--highlight-color),
+    rgba(163, 215, 253, 0) 90%
+  );
+  z-index: -1;
+}
+.circle2 {
+  position: absolute;
+  right: -630px;
+  top: -600px;
+  width: 1540px;
+  height: 1540px;
+  border-radius: 50%;
+  background-color: var(--highlight-color);
+  background: linear-gradient(
+    120deg,
+    var(--highlight-color),
+    rgba(163, 215, 253, 0) 60%
+  );
+  z-index: -1;
+}
