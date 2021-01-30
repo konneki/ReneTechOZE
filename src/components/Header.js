@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Header.css';
+import template from '../images/template@2x.png';
 
 const Header = () => {
   return (
@@ -19,6 +20,7 @@ const Header = () => {
           </div>
         </div>
       </header>
+      <img className='heading-picture' src={template} alt='template' />
       <div className='circle1'></div>
       <div className='circle2'></div>
     </div>
