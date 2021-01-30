@@ -9,8 +9,8 @@
 .hero-container::before {
   content: '';
   position: absolute;
-  right: -420px;
-  top: -600px;
+  right: -430px;
+  top: -780px;
   width: 1540px;
   height: 1540px;
   border-radius: 50%;
@@ -26,7 +26,7 @@
   content: '';
   position: absolute;
   right: -630px;
-  top: -600px;
+  top: -780px;
   width: 1540px;
   height: 1540px;
   border-radius: 50%;
@@ -40,7 +40,6 @@
 }
 .hero {
   width: 90vw;
-  position: relative;
 }
 .heading-container {
   max-width: 780px;
@@ -67,6 +66,7 @@
   font-size: 2rem;
   margin: 0;
   margin-bottom: 40px;
+  line-height: 30px;
 }
 .button-fill {
   display: inline-flex;
