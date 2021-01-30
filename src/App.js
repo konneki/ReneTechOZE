@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Carousel from './components/Carousel';
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className='App'>
       <Navbar />
       <Header />
+      <Carousel />
     </div>
   );
 };

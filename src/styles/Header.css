@@ -25,7 +25,7 @@
 .hero-container::after {
   content: '';
   position: absolute;
-  right: -630px;
+  right: -700px;
   top: -780px;
   width: 1540px;
   height: 1540px;
