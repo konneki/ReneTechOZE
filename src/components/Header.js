@@ -19,8 +19,8 @@ const Header = () => {
             <a href='/'>Kontakt z nami</a>
           </div>
         </div>
+        <img className='heading-picture' src={template} alt='template' />
       </header>
-      <img className='heading-picture' src={template} alt='template' />
       <div className='circle1'></div>
       <div className='circle2'></div>
     </div>

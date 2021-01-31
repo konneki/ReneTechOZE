@@ -16,7 +16,7 @@
 }
 .carousel-heading {
   text-transform: capitalize;
-  margin-bottom: 60px;
+  margin: 0 0 60px 0;
 }
 .flickity-button {
   background-color: var(--highlight-color);
