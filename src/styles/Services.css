@@ -1,0 +1,15 @@
+@import '../_variables.css';
+
+.services-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90vw;
+  grid-gap: 40px;
+}

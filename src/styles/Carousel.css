@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 0 138px 0;
 }
 .carousel-container {
   justify-content: center;
@@ -34,6 +35,9 @@
   right: -40px;
 }
 @media screen and (max-width: 1000px) {
+  .carousel {
+    margin: 0 0 120px 0;
+  }
   .carousel-container {
     width: 60vw;
   }
@@ -46,7 +50,6 @@
     top: 80px;
   }
   .carousel-heading {
-    font-size: 2.4rem;
     margin: 0 0 40px 0;
   }
 }
