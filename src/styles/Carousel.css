@@ -33,3 +33,20 @@
 .flickity-prev-next-button.next {
   right: -40px;
 }
+@media screen and (max-width: 1000px) {
+  .carousel-container {
+    width: 60vw;
+  }
+  .flickity-prev-next-button.previous {
+    left: 100px;
+    top: 80px;
+  }
+  .flickity-prev-next-button.next {
+    right: 100px;
+    top: 80px;
+  }
+  .carousel-heading {
+    font-size: 2.4rem;
+    margin: 0 0 40px 0;
+  }
+}
