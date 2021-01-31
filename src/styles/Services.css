@@ -6,10 +6,16 @@
   justify-content: center;
   align-items: center;
 }
-
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 90vw;
   grid-gap: 40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
 }

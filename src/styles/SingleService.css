@@ -4,6 +4,7 @@
   background-color: var(--main-dark-color);
   border-radius: 30px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   padding: 65px 40px;
   position: relative;
@@ -60,4 +61,15 @@
   border-radius: 4px;
   grid-column: 1;
   grid-row: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  .wrapper {
+    flex-direction: column;
+    padding: 30px 30px 80px 30px;
+  }
+
+  .image-container {
+    margin: 0 0 20px 0;
+  }
 }
