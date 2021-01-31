@@ -25,7 +25,8 @@
 .flickity-button-icon {
   fill: white;
 }
-.flickity-button-icon:hover {
+.flickity-button-icon:hover,
+.flickity-button-icon:active {
   fill: black;
 }
 .flickity-prev-next-button.previous {
@@ -42,11 +43,11 @@
     width: 60vw;
   }
   .flickity-prev-next-button.previous {
-    left: 100px;
+    left: 20px;
     top: 80px;
   }
   .flickity-prev-next-button.next {
-    right: 100px;
+    right: 20px;
     top: 80px;
   }
   .carousel-heading {
