@@ -11,10 +11,6 @@ const SingleService = (props) => {
         <h3 className='text-wrapper-heading'>{props.title}</h3>
         <p className='text-wrapper-description'>{props.description}</p>
       </div>
-      <div className='wrapper-button'>
-        <div className='vertical'></div>
-        <div className='horizontal'></div>
-      </div>
     </div>
   );
 };
